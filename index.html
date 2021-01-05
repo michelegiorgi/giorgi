@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Michele Giorgi</title>
+    <meta name="description" content="33 years old Frontend developer — Live in Italy — Make websites since 2000 — Work at Moze where we create awesome digital products — Build Formality for fun (and because I hate the gym).">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://giorgi.io">
+    <meta property="og:title" content="Michele Giorgi">
+    <meta property="og:site_name" content="Michele Giorgi">
+    <meta property="og:image" content="assets/avatar.jpg">
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="600" />
+    <meta name="twitter:site" content="@michelegiorgi">
+    <meta name="twitter:creator" content="@michelegiorgi">
+    <meta name="theme-color" content="#FFFFFF">
+    <style>
+      html { font-size: 22px; }
+      body { padding: 2.4rem; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+      main { display: flex; align-items: flex-start; max-width: 54.5rem; }
+      img { width: 12rem; height: auto; border-radius: 50%; flex-shrink: 0; margin-right: 2.8rem; }
+      h1 { margin: 0 0 0.75rem; font-size: 1rem; }
+      h2 { margin: 0 0 1rem; font-weight: bold; font-size: 2.4rem; line-height: 1.25; }
+      i { display: inline-block; width: 1.5rem; height: 1em; vertical-align: middle; margin: -0.25em -0.075em 0 0.025em; cursor: pointer; opacity: 0.25; user-select: none; background-image: url(assets/play.svg); background-size: 100% auto; background-position: top left; background-repeat: no-repeat; }
+      i:hover { opacity: 1 }
+      ul { list-style: none; opacity: 0.5; margin: 0; padding: 0; }
+      a { color: inherit }
+      p { line-height: 1.7; margin: 0 0 1rem; }
+      small { opacity: 0.5; display: block; line-height: 1.7; }
+      @media(max-width: 1920px) {
+        html { font-size: 21px }
+      }
+      @media(max-width: 1680px) {
+        html { font-size: 20px }
+      }
+      @media(max-width: 1280px) {
+        html { font-size: 19px }
+      }
+      @media(max-width: 1024px) {
+        html { font-size: 18px }
+        body { padding: 2.2rem }
+        img { width: 10rem }
+      }
+      @media(max-width: 756px) {
+        html { font-size: 17px }
+        body { padding: 2rem }
+        main { flex-direction: column }
+        h1 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+        img { margin-bottom: 1.5rem }
+      }
+      @media(max-width: 480px) {
+        html { font-size: 16px }
+        body { padding: 1.5rem }
+        img { width: 8rem }
+        h2 { font-size: 2.2rem }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="assets/avatar.jpg" alt="avatar">
+      <section>
+        <h1>Michele Giorgi</h1>
+        <h2>I tell people I'm a frontend dev, and they believe me<i></i>. These days, some also add 'senior' prefix, but It's the little hair left in my head<i></i>.</h2>
+        <p>33 years old — Live in Italy — Make websites since 2000 — Work at <a rel="noopener noreferrer" target="_blank" href="https://mozestudio.com">Moze</a> where we create awesome digital products — Build <a rel="noopener noreferrer" target="_blank" href="https://formality.dev">Formality</a> for fun (and because I hate the gym).</p>
+        <small>Write me an email at hi-at-this-domain - <a rel="noopener noreferrer" target="_blank" href="https://github.com/michelegiorgi/">Fork this page</a> on Github</small>
+        <small>CC0 <a rel="noopener noreferrer" target="_blank" href="https://freesound.org/s/431811/">Ba dum tss</a> by DJczyszy</small>
+      </section>
+    </main>
+    <script>
+      const audio = new Audio('assets/badumtss.mp3');
+      audio.addEventListener("ended", function(){
+        audio.currentTime = 0;
+      });
+      const buttons = document.querySelectorAll('h2 i');
+      Array.prototype.forEach.call(buttons, function(el, i){
+        el.addEventListener('click', function(){
+          audio.currentTime = 0;
+          audio.play();
+        });
+      });
+    </script>
+  </body>
+</html>
