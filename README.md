@@ -1,6 +1,6 @@
-# giorgi
+# Giorgi
 **Personal website @ [giorgi.io](https://giorgi.io)**  
-Just an old-school, preprocessor/compiler-less, dead simple **HTML static page**, with default system fonts, and inline styles. Feel free to use it if you like it.
+Just an old-school, preprocessor/compiler-less, dead simple **HTML static page**, with default system fonts, and inline styles. Nothing special... feel free to use it if you like it.
 
 ## Credits
 - [Ba dum tss](https://freesound.org/s/431811/) by DJczyszy (CC0)
